@@ -299,7 +299,7 @@ describe('Testing challenge 6', () => {
     expect(sortByLength(['a'])).toStrictEqual(['a']);
     expect(sortByLength([])).toStrictEqual([]);
   });
-});
+}); 
 
 xdescribe('Testing challenge 7', () => {
   test('It should alphabetize without regard to capitalization', () => {
