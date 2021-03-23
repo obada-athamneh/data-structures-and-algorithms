@@ -105,7 +105,7 @@ Here is an example of the input:
 ];
 ------------------------------------------------------------------------------------------------ */
 
-const sortByPrice = (arr) => {
+const sortByLength = (arr) => {
   // Solution code here...
   return arr.sort((a, b) => {
     if (a.length < b.length) {
@@ -114,6 +114,13 @@ const sortByPrice = (arr) => {
     if (a.length > b.length) {
       return 1;
     }
+    if (a < b) {
+      return -1;
+    }
+    if (a > b) {
+      return 1;
+    }
+
     return 0;
   });
 };
@@ -136,7 +143,7 @@ CHALLENGE 8 - Stretch Goal
 Write a function named sortByLength that takes in an array of strings and returns the same array, with the strings sorted by their length, lowest to highest.
 ------------------------------------------------------------------------------------------------ */
 
-const sortByLength = (arr) => {
+const sortByLength1 = (arr) => {
   // Solution code here...
 };
 
