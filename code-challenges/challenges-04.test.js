@@ -58,8 +58,8 @@ Write a function named containsWorld that takes in a string or number of any len
 
 const containsWorld = (input) => {
   // Solution code here...
-  let word = /word/;
-  return word.test(input);
+  let w = /world/;
+  return w.test(input);
   
 };
 
@@ -91,13 +91,13 @@ Write a function named citiesAtoJ that takes in an array of city names and uses 
 
 const citiesAtoJ = (arr) => {
   // Solution code here...
-  let arr = [];
-  arr.array.forEach(element => {
-    if (Element.match(/^[A-J][a-z]*/g)){
-      arr.push(Element);
+  let array = [];
+  arr.forEach(element => {
+    if (element.match(/^[A-J][a-z]*/g)){
+      array.push(element);
     
   }});
-  return arr;
+  return array;
 };
 
 /* ------------------------------------------------------------------------------------------------
