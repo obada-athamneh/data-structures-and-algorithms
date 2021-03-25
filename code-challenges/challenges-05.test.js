@@ -161,6 +161,7 @@ const listFoods = (recipe) => {
         if (result.indexOf(ingred) == -1) {
           result.push(ingred);
         }
+        return;
       }
     });
   }
